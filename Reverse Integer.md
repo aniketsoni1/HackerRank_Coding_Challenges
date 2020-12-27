@@ -25,9 +25,10 @@ Output: 0
 </br> </br>
 
 <b>Solution: </b>
-<code>
 
+<code>
   class Solution:
+  
       def reverse(self, x: int) -> int:
 
           neg = False
