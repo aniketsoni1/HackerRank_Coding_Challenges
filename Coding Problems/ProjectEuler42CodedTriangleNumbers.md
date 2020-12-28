@@ -37,15 +37,18 @@ Print the answer corresponding to each test case in a new line.<br/>
 
 
 <code>
-import math
-def isTriang(K):
-    x=(-1+math.sqrt(1+8*K))/2
-    if x==int(x):
-        return int(x)
-    else:
-        return -1
+    
+    import math
 
-for _ in range(int(input())):
-    t=int(input())
-    print(isTriang(t))
+    def isTriang(K):
+        x=(-1+math.sqrt(1+8*K))/2
+        if x==int(x):
+            return int(x)
+        else:
+            return -1
+
+    for _ in range(int(input())):
+        t=int(input())
+        print(isTriang(t))
+    
 </code>
