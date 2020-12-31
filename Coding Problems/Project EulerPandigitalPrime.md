@@ -1,20 +1,20 @@
 <h1>Project Euler: Pandigital prime</h1><br/>
 We shall say that an -digit number is pandigital if it makes use of all the digits 1 to  exactly once. For example,  is a -digit pandigital and is also prime.<br/>
-
-What is the largest <b>n</b>-digit pandigital prime <b><=N</b>? If there is none, print -1<br/>
+<br/>
+What is the largest <b>n</b>-digit pandigital prime <b><=N</b>? If there is none, print -1<br/><br/>
 
 <b>Input Format</b><br/>
 
 First line contains <b>T</b> that denotes the number of test cases. This is followed by <b>T</b> lines, each containing an integer, <b>N</b>.<br/>
-
+<br/>
 <b>Constraints</b><br/>
 
-1<=T<=10<sup>5</sup>
+1<=T<=10<sup>5</sup><br/>
 10<=N<=10<sup>10</sup>-1
-<br/>
+<br/><br/>
 <b>Output Format</b><br/>
 
-Print the required answer for each test case.<br/>
+Print the required answer for each test case.<br/><br/>
 
 <b>Sample Input</b>
 <br/>
