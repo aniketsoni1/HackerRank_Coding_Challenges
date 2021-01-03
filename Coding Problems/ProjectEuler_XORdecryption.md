@@ -1,6 +1,5 @@
 <h1>Project Euler: XOR decryption</h1>
 <br/>
-
 Each character on a computer is assigned a unique code and the preferred standard is ASCII (American Standard Code for Information Interchange). For example, uppercase A = 65, asterisk <b>(*)</b> = 42, and lowercase k = 107.
 <br/>
 
@@ -20,9 +19,7 @@ Your task has been made easy, as the encryption key consists of three lower case
 <br/>
 
 <b>Input Format</b><br/>
-
-
-First line of input contains an integer . Followed by  space separated integers denoting the encoded ASCII codes.
+First line of input contains an integer <b>N</b>. Followed by <b>N</b> space separated integers denoting the encoded ASCII codes.
 <br/>
 <br/>
 
@@ -35,19 +32,12 @@ First line of input contains an integer . Followed by  space separated integers 
 Print the answer corresponding to the test case.<br/>
 <br/>
 
-<b>Sample Input</b><br/><br/>
-
+<b>Sample Input</b><br/>
 82<br/>
-
-32 66 50 20 11 0 42 66 33 19 13 20 47 66 37 14 58 67 43 23 14 17 49 67 <br/>
-46 20 6 51 66 55 9 39 67 45 3 25 56 66 39 14 37 34 65 51 22 8 1 40 65 32<br/>
- 17 14 21 45 65 36 12 57 66 41 20 15 19 50 66 44 23 7 49 65 54 11 36 66<br/>
- 47 0 24 58 65 38 12 38<br/>
+32 66 50 20 11 0 42 66 33 19 13 20 47 66 37 14 58 67 43 23 14 17 49 67 46 20 6 51 66 55 9 39 67 45 3 25 56 66 39 14 37 34 65 51 22 8 1 40 65 32 17 14 21 45 65 36 12 57 66 41 20 15 19 50 66 44 23 7 49 65 54 11 36 66 47 0 24 58 65 38 12 38<br/>
 <br/>
 
-Sample Output<br/>
-
-
+<b>Sample Output</b><br/>
 abc<br/>
 
 <code>
